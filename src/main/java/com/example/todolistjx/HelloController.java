@@ -5,10 +5,17 @@ import javafx.scene.control.Label;
 
 public class HelloController {
     @FXML
-    private Label welcomeText;
+    private Label inscription;
+    @FXML
+    private Label connexion;
+
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    protected void Inscription() {
+        inscription.setText("Vous essayez de vous inscrire !");
+    }
+    @FXML
+    protected void Connexion() {
+        connexion.setText("Vous essayez de vous connecter !");
     }
 }
